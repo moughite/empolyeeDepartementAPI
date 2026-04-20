@@ -8,6 +8,8 @@ class EmpolyeeapiApplicationTests {
 
 	@Test
 	void contextLoads() {
+		// Überprüft, dass der Spring Boot-Kontext korrekt startet
+		assertThat(context).isNotNull();
 	}
 
 }
