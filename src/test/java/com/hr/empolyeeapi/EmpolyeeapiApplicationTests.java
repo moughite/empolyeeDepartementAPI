@@ -8,6 +8,7 @@ class EmpolyeeapiApplicationTests {
 
 	@Test
 	void contextLoads() {
+		// Überprüft, dass der Spring Boot-Kontext korrekt startet
+		// Wenn der Kontext nicht startet, schlägt dieser Test automatisch fehl
 	}
-
 }
